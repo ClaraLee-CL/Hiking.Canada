@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hiking.Canada | Contact Us</title>
+
+    <!-- Import Remix Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Import CSS file -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/contactUs.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="./index.html" class="logo-box">
+          <h1 class="logo-image">Hiking.<br />Canada</h1>
+        </a>
+
+        <div class="menu" id="mobile-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="./about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="./tourExperience.html" class="nav-link"
+                >Tour Experiences</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./blog.html" class="nav-link">blogs</a>
+            </li>
+            <li class="nav-item lg-screen-hidden">
+              <a href="./contactUs.html" class="nav-link">Contact us</a>
+            </li>
+          </ul>
+
+          <div
+            class="menu-toggle-icon menu-toggle-close"
+            id="menu-toggle-close"
+          >
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <a
+          href="./contactUs.html"
+          class="nav-link account-link place-items-center sm-screen-hidden"
+        >
+          <i class="ri-account-circle-line"></i> Contact us
+        </a>
+
+        <div class="menu-toggle-icon menu-toggle-open" id="menu-toggle-open">
+          <i class="ri-menu-4-fill"></i>
+        </div>
+      </nav>
+    </header>
+
+    <section class="contact-us" id="form">
+      <div class="hero-container container form-container">
+        <h3 class="form__title">Contact Us</h3>
+        <span> Hiking.support@toronto.ca</span>
+        <div class="form__wrapper">
+          <form>
+            <div class="form__group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="first_name" required />
+            </div>
+            <div class="form__group">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="last_name" required />
+            </div>
+            <div class="form__group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form__group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required />
+            </div>
+            <div class="form__group form__group__full">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn primary-btn">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container container d-grid">
+        <div class="brand-information">
+          <a href="./index.html" class="logo-box">
+            <h1 class="logo-image">Hiking.<br />Canada</h1>
+          </a>
+          <p class="footer-blurb">
+            Get out there & discover your next slope, mountain & destination!
+          </p>
+          <span class="copyright"
+            >&copy; 2022 MNTN, Inc. All rights reserved.</span
+          >
+        </div>
+        <div class="footer-nav d-grid">
+          <div class="footer-nav-group">
+            <h6 class="footer-nav-title">More on the blog</h6>
+            <a
+              href="https://canadianrockiestrailguide.com/hiking-blog/"
+              class="footer-nav-link nav-link"
+              >Summerthought</a
+            >
+            <a
+              href="https://happiestoutdoors.ca/"
+              class="footer-nav-link nav-link"
+              >Happiest Outdoors</a
+            >
+            <a
+              href="https://ontariohiking.com/"
+              class="footer-nav-link nav-link"
+              >Ontario Hiking</a
+            >
+            <a
+              href="https://www.vancouvertrails.com/blog/"
+              class="footer-nav-link nav-link"
+              >Vancouver Trails</a
+            >
+            <a
+              href="https://www.outdoorvancouver.ca/"
+              class="footer-nav-link nav-link"
+              >Outdoor Vancouver</a
+            >
+          </div>
+
+          <div class="footer-nav-group">
+            <h6 class="footer-nav-title">More on activities</h6>
+            <a href="#" class="footer-nav-link nav-link">Day hiking</a>
+            <a href="#" class="footer-nav-link nav-link">Backpacking</a>
+            <a href="#" class="footer-nav-link nav-link">Snowshoeing</a>
+            <a href="#" class="footer-nav-link nav-link">Travel</a>
+            <a href="#" class="footer-nav-link nav-link">Biking</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Import JS file -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

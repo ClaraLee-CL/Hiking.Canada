@@ -1,0 +1,45 @@
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    360deg,
+    rgba(11, 29, 38, 255),
+    transparent 80%
+  );
+  z-index: 50;
+}
+
+.about-main {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 99%;
+  object-fit: cover;
+}
+
+.hiking-information {
+  margin-top: 9rem;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  order: 2;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 991px) {
+  .hero-about-data {
+    top: 45%;
+    max-width: 79rem;
+    justify-self: center;
+  }
+}
